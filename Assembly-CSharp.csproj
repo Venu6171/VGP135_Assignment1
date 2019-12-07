@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2053AA52-9BD7-9711-81A1-353CE4BF990B}</ProjectGuid>
+    <ProjectGuid>{97591F43-68A1-C751-0495-9E90314AB506}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,30 +63,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Match 3 Starter\Scripts\Board and Grid\BoardManager.cs" />
-    <Compile Include="Assets\Match 3 Starter\Scripts\Board and Grid\Tile.cs" />
-    <Compile Include="Assets\Match 3 Starter\Scripts\Effects\MyGui.cs" />
-    <Compile Include="Assets\Match 3 Starter\Scripts\Managers\GameManager.cs" />
-    <Compile Include="Assets\Match 3 Starter\Scripts\Managers\GUIManager.cs" />
-    <Compile Include="Assets\Match 3 Starter\Scripts\Managers\SFXManager.cs" />
-    <None Include="Assets\Match 3 Starter\Audio\Music\Attribution.txt" />
+    <Compile Include="Assets\Scripts\Board and Grid\BoardManager.cs" />
+    <Compile Include="Assets\Scripts\Board and Grid\Tile.cs" />
+    <Compile Include="Assets\Scripts\Effects\MyGui.cs" />
+    <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\GUIManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\SFXManager.cs" />
+    <None Include="Assets\Audio\Music\Attribution.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/Assignment 1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/VGP135-Assignment1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/Assignment 1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/VGP135-Assignment1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/Assignment 1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/VGP135-Assignment1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/Assignment 1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/VGP135-Assignment1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/Assignment 1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/VGP135-Assignment1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/Assignment 1/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/VGP135-Assignment1/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -272,13 +272,13 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.10f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/Assignment 1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/VGP135-Assignment1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/Assignment 1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/VGP135-Assignment1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/Assignment 1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/virenahluwalia/Desktop/Semester 7/VGP135/VGP135-Assignment1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.10f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

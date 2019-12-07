@@ -19,11 +19,9 @@ public class BoardManager : MonoBehaviour
 
         Vector2 offset = tile.GetComponent<SpriteRenderer>().bounds.size;
         CreateBoard(offset.x, offset.y);
-    }
 
-    private void Update()
-    {
-        GUIManager.instance.MoveCounter--;
+        StartCoroutine("LoseTime");
+        Time.timeScale = 1;
     }
 
     private void CreateBoard(float xOffset, float yOffset)
@@ -119,5 +117,15 @@ public class BoardManager : MonoBehaviour
         }
 
         return possibleCharacters[Random.Range(0, possibleCharacters.Count)];
+    }
+
+    IEnumerator LoseTime()
+    {
+        while(true)
+        {
+            yield return new WaitForSeconds(1);
+
+            GUIManager.instance.MoveCounter--;
+        }
     }
 }

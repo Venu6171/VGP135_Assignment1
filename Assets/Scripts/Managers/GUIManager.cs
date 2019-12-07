@@ -16,11 +16,12 @@ public class GUIManager : MonoBehaviour {
     private int score;
     private int moveCounter;
     private int matchTime;
+
     void Awake()
     {
         matchTime = 60;
         moveCounter = matchTime;
-        //moveCounterTxt = moveCounter.ToString();
+        moveCounterTxt.text = moveCounter.ToString();
         instance = GetComponent<GUIManager>();
     }
 
@@ -35,14 +36,14 @@ public class GUIManager : MonoBehaviour {
         }
     }
 
-    //private void Update()
-    //{
-    //    moveCounter -= (int)Time.deltaTime;
-    //    if(moveCounter < 0)
-    //    {
-    //        GameOver();
-    //    }
-    //}
+    private void Update()
+    {
+        if(moveCounter == 0)
+        {
+            GameOver();
+            StopAllCoroutines();
+        }
+    }
 
     public int MoveCounter
     {
